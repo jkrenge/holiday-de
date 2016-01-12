@@ -97,6 +97,16 @@
     case 'th':
       exports.holidays.Reformationstag = true;
       break;
+    case 'anywhere':
+      exports.holidays['Heilige Drei Könige'] = true;
+      exports.holidays.Fronleichnam = true;
+      exports.holidays.Allerheiligen = true;
+      exports.holidays['Mariä Himmelfahrt'] = true;
+      exports.holidays.Reformationstag = true;
+      exports.holidays['Buß- und Bettag'] = true;
+      break;
+    case 'everywhere':
+      break;
     }
   };
 

@@ -38,6 +38,8 @@ Footnote: holiday-de plays nice with [moment](http://momentjs.com).
 * `st`: Sachsen-Anhalt
 * `sh`: Schleswig-Holstein
 * `th`: Thüringen
+* `everywhere`: Only holidays common to all states
+* `anywhere`: All holidays, i.e. a holiday anywhere in Germany
 
 ## List of supported holidays
 
